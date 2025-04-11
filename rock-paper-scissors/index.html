@@ -3,9 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Rock Paper Scissors</title>
   </head>
   <body>
+    <h1 id="title">Rock✊🏻 Paper✋🏻 Scissors✌🏻</h1>
+
+    <div id="start-screen">
+      <button class="start-btn">Let's Play!</button>
+    </div>
+
+    <div id="game-area" style="display: none">
+      <div class="result">
+        <p class="message">
+          Rock crushes, paper smothers, scissors slice. What's your weapon? ⚔️
+        </p>
+      </div>
+      <div id="choice-btns">
+        <button class="choice rock">Rock</button>
+        <button class="choice paper">Paper</button>
+        <button class="choice scissors">Scissors</button>
+      </div>
+
+      <div id="scores">
+        <h3>Your Score</h3>
+        <p class="human-score">0</p>
+        <h3>Computer Score</h3>
+        <p class="computer-score">0</p>
+      </div>
+
+      <button id="reset-btn" style="display: none">Play Again</button>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
