@@ -155,5 +155,5 @@ startBtn.addEventListener("click", () => {
   gameArea.style.display = "block"; // Show game area
 });
 
-// Restt Game
+// Reset Game
 resetBtn.addEventListener("click", resetGame);
