@@ -47,6 +47,7 @@ body {
   text-align: center;
   max-width: 600px;
   width: 100%;
+  display: none;
 }
 
 .message {
@@ -105,7 +106,7 @@ body {
   margin-top: 2rem;
   padding: 0.8rem 2rem;
   font-size: 1.1rem;
-  background-color: #467ee7;
+  background-color: #e24ba6;
   color: white;
   border: none;
   border-radius: 10px;
@@ -116,6 +117,6 @@ body {
 }
 
 #reset-btn:hover {
-  background-color: #2255cd;
+  background-color: #e82e9d;
   transform: scale(1.05);
 }
