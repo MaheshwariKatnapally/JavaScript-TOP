@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="heading-container">
+      <h1 id="title">Etch-A-Sketch 🎨</h1>
+      <p id="note">Scribble your stress away... square by square 🧘‍♀️🖌️</p>
+      <div id="slider">
+        <label for="grid-size"
+          >GRID SIZE: <span id="grid-value">16</span> ×
+          <span id="grid-value-2">16</span></label
+        >
+        <input type="range" id="grid-size" min="1" max="100" value="16" />
+      </div>
+    </div>
+    <div id="grid-options-container">
+      <div id="grid-container"></div>
+
+      <div id="buttons">
+        <div id="color-picker-div">
+          <label for="color-picker">Pick a color:</label>
+          <input type="color" id="color-picker" value="#000" />
+        </div>
+        <button id="rainbow-btn">RAINBOW</button>
+
+        <button id="eraser-btn">ERASER</button>
+
+        <button id="reset-btn">CLEAR</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
